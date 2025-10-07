@@ -25,30 +25,30 @@ export default function Home() {
           </div>
           <div className="p-8 w-full lg:w-1/2 flex flex-col justify-center">
             <h2
-              className={`${montserrat.className} text-[1rem] pb-4 tracking-[0.2rem] uppercase`}
+              className={`${montserrat.className} text-[14px] pb-4 tracking-[0.2rem] uppercase`}
             >
               Perfume
             </h2>
             <h1
-              className={`${fraunces.className} text-[2rem] font-bold leading-snug pb-6`}
+              className={`${fraunces.className} text-[32px] font-bold leading-none pb-6`}
             >
               Gabrielle Essence Eau De Parfum
             </h1>
             <p
-              className={`${montserrat.className} text-[1rem] pb-4 leading-relaxed`}
+              className={`${montserrat.className} text-[14px] pb-4 leading-relaxed`}
             >
               A floral, solar and voluptuous interpretation composed by Olivier
               Polge, Perfumer-Creator for the House of CHANEL.
             </p>
             <div className="flex items-center pb-6">
               <h1
-                className={`${fraunces.className} text-[2rem] text-[#3c8067ff] font-semibold pr-6`}
+                className={`${fraunces.className} text-[32px] text-[#3c8067ff] font-semibold pr-6`}
               >
                 $149.99
               </h1>
-              <h3 className={`${fraunces.className} text-[1rem] line-through`}>
+              <h2 className={`${fraunces.className} text-[14px] line-through`}>
                 $169.99
-              </h3>
+              </h2>
             </div>
             <a
               className={`${montserrat.className} block w-full h-[2.5rem] bg-[#3c8067ff] flex justify-center items-center rounded-lg text-white text-[12px] hover:bg-[#1b4133ff] cursor-pointer`}
